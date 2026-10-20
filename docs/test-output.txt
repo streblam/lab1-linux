@@ -1,0 +1,19 @@
+make: Entering directory '/workspace/scratch/4d215c1ef5a5/os-lab1-linux'
+python3 tests/integration.py
+Binary: /workspace/scratch/4d215c1ef5a5/os-lab1-linux/oslab
+Kernel: 6.18.55 x86_64
+PASS normal-3-workers
+PASS normal-5-workers
+FD_CHECK: each idle Worker = 4; Supervisor = 7; unchanged after console commands
+PASS priority-permissions-fd-count
+PASS worker-sigkill-requeue
+PASS file-removed
+PASS supervisor-sigterm
+PASS shutdown-timeout
+PASS invalid-config
+PASS init-no-overwrite
+PASS all-workers-dead
+PASS empty-directory
+PASS task-timeout
+12/12 PASS
+make: Leaving directory '/workspace/scratch/4d215c1ef5a5/os-lab1-linux'
